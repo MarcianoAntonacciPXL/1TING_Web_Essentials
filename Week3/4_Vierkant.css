@@ -1,0 +1,50 @@
+table {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+tr:nth-child(1) > td:nth-child(1) {
+    background-color: Green;
+}
+
+tr:nth-child(1) > td:nth-child(2) {
+    background-color: Red;
+}
+
+tr:nth-child(2) > td:nth-child(1) {
+    background-color: Blue;
+}
+
+tr:nth-child(5) > td:nth-child(1) {
+    background-color: Yellow;
+}
+
+tr:nth-child(2) > td:nth-child(2) {
+    background-color: Red;
+}
+
+tr:nth-child(2) > td:nth-child(3) {
+    background-color: Yellow;
+}
+
+tr:nth-child(4) > td:nth-child(1) {
+    background-color: Blue;
+}
+
+tr:nth-child(3) > td:nth-child(1) {
+    background-color: Green;
+}
