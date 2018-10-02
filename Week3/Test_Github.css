@@ -1,0 +1,17 @@
+header {
+    color: lime;
+    background-color: #505050;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+}
+
+main {
+    padding: 5px 0px 0px 0px;
+}
+
+div {
+    background-color: #828282;
+    color: white;
+    padding: 0px 0px 5px 0px;
+}
+
