@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: #ffe14f;
+}
+
+body {
+    background-color: #151c28;
+}
+
+article {
+    height: 110px;
+    width: 500px;
+    margin: 5px auto;
+    border: 2px solid #ffe14f;
+    border-radius: 5px;
+}
+
+.foto {
+    width: 100px;
+    margin: 5px 5px;
+}
+
+.bel {
+    background-color: #8daec6;
+}
+
+.audio {
+    margin: 5px;
+    border-radius: 10px;
+}
