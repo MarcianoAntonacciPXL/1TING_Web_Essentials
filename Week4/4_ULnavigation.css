@@ -1,0 +1,40 @@
+body {
+    background-color: #8b0005;
+    color: #FFFFFF;
+}
+
+nav {
+    background-color: #b32400;
+    height: 50px;
+}
+
+img {
+    width: 40px;
+    margin: 5px;
+}
+
+.navigatie {
+    display: inline-block;
+    margin: 0;
+}
+
+li {
+    margin-top: -20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 100px;
+}
+
+ul {
+    margin: auto 0;
+    text-align: center;
+    vertical-align: center;
+    position: relative;
+    bottom: 10px;
+    left: -25px;
+}
