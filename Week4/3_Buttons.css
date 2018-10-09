@@ -1,0 +1,50 @@
+body {
+    background-color: #fbd1a2;
+}
+
+.groot {
+    width: 24%;
+    margin: 0;
+    padding: 2%;
+    display: inline-block;
+}
+
+.klein {
+    background-color: #07c1c4;
+    color: #07c1c4;
+    height: 20vh;
+}
+
+.klein:hover {
+    background-color: #7dbfc6;
+    color: #7dbfc6;
+}
+
+* {
+    empty-cells: show;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: #1b5fb7;
+}
+
+footer {
+    position: fixed;
+    background-color: #f79256;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+}
+
+section {
+    height: 50px;
+    color: #fbd1a2;
+}
+
+p {
+    text-align: center;
+    color: #1b5fb7;
+}
