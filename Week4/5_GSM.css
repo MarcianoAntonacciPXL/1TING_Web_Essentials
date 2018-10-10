@@ -1,0 +1,11 @@
+iframe {
+    position: absolute;
+    left: 56px;
+    top: 25px;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+img {
+    position: absolute;
+}
