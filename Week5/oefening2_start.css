@@ -3,6 +3,10 @@ html {
     background-color: #ccdddd;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 main {
     margin: 0 auto;
 }
@@ -109,5 +113,78 @@ img{
     main {
         width: 1200px;
         margin: 0 auto;
+    }
+
+    li {
+        display: inline-block;
+        width: 146px;
+    }
+
+    article {
+        float: left;
+        width: 70%;
+    }
+
+    aside {
+        float: right;
+    }
+
+    footer {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    main {
+        width: 100%;
+    }
+
+    li {
+        display: inline-block;
+        width: 24%;
+        margin: 2px;
+    }
+
+    article {
+        float: left;
+        width: 70%;
+    }
+
+    aside {
+        float: right;
+    }
+
+    footer {
+        display: block;
+        width: 100%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+    main {
+        width: 100%;
+    }
+
+    li {
+        display: inline-block;
+        width: 49%;
+        margin: 2px 0;
+    }
+
+    aside {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    aside {
+        display: none;
+    }
+
+    ul {
+        display: none;
     }
 }
