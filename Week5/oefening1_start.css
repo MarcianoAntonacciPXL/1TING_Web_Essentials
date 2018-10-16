@@ -22,10 +22,10 @@ main {
 }
 
 figure {
-    border: 3px dashed #1b5fb7;
     width: 70px;
     float: right;
     margin: 0;
+    border: 3px dashed #1b5fb7;
 }
 
 footer {
@@ -34,4 +34,66 @@ footer {
     text-align:center;
     background-color: peru;
     color: white;
+}
+
+img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+    figure {
+        width: 15%;
+        height: auto;
+    }
+
+    main {
+        width: 80%;
+    }
+
+    section {
+        border: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media only screen  and (max-width: 700px) {
+    footer {
+        display: none;
+    }
+
+    figure {
+        border: 0;
+        float: none;
+        width: 25%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    main {
+        float: none;
+        max-width: 700px;
+    }
+
+    section {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    section {
+        width: 100%;
+    }
+
+    img {
+        display: none;
+    }
 }
