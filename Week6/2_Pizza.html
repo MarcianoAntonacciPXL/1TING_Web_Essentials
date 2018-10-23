@@ -13,7 +13,7 @@
     </header>
     <main>
         <h3>Stel uw eigen pizza samen en we mailen hem naar jou!</h3>
-        <form action="mailto:bestellen@abroznar.be">
+        <form action="mailto:bestellen@abroznar.be" method="post" enctype="text/plain">
             <label for="naam" class="vet">Naam:</label><br />
             <input type="text" name="naam" id="naam" required /><br /><br />
             <label class="vet">Korst:</label><br />
@@ -38,7 +38,7 @@
                 <option value="Cash">Cash</option>
                 <option value="Bancontact">Bancontact</option>
             </select><br /><br />
-            <input type="submit" name="submit" class="submit" value="Ziet er lekker uit, bestellen maar!" />
+            <input type="submit" class="submit" value="Ziet er lekker uit, bestellen maar!" />
         </form>
     </main>
 </body>
