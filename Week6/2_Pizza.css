@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: #fff8dc;
+}
+
+div.groen {
+    background-color: #007f00;
+    color: #007f00;
+    width: 32%;
+}
+
+div.wit {
+    background-color: white;
+    width: 33%;
+    text-align: center;
+}
+
+div.rood {
+    background-color: #fe0000;
+    color: #fe0000;
+    width: 32%;
+    float: right;
+}
+
+header div {
+    display: inline-block;
+}
+
+header {
+    background-color: white;
+}
+
+main {
+    margin: 20px auto;
+    width: 60%;
+    background-color: #fffdf6;
+    padding: 10px;
+}
+
+.vet {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#hesp {
+    position: relative;
+}
+
+#salami {
+    position: relative;
+    margin-left: 50px;
+}
+
+#kip {
+    position: relative;
+    margin-left: 95px;
+}
+
+#ajuin {
+    position: relative;
+}
+
+#champignons {
+    position: relative;
+    margin-left: 47px;
+}
+
+#ananas {
+    position: relative;
+    margin-left: 50px;
+}
+
+.submit {
+    height: 35px;
+}

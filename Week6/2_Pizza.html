@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Abroznar</title>
+    <link rel="stylesheet" type="text/css" href="2_Pizza.css" />
+</head>
+<body>
+    <header>
+        <div class="groen">.</div>
+        <div class="wit">Pizza Abroznar</div>
+        <div class="rood">.</div>
+    </header>
+    <main>
+        <h3>Stel uw eigen pizza samen en we mailen hem naar jou!</h3>
+        <form action="mailto:bestellen@abroznar.be">
+            <label for="naam" class="vet">Naam:</label><br />
+            <input type="text" name="naam" id="naam" required /><br /><br />
+            <label class="vet">Korst:</label><br />
+            <input type="radio" name="korst" value="klassiek" id="klassiek" />
+            <label for="klassiek" class="vet">Klassiek</label>
+            <input type="radio" name="korst" value="italiaans" id="italiaans" />
+            <label for="italiaans" class="vet">Italiaans</label>
+            <input type="radio" name="korst" value="amerikaans" id="amerikaans" />
+            <label for="amerikaans" class="vet">Amerikaans</label><br /><br />
+            <label class="vet">Toppings:</label><br />
+            <input type="checkbox" name="hesp" id="hesp" /><label for="hesp">Hesp</label>
+            <input type="checkbox" name="salami" id="salami" /><label for="salami">Salami</label>
+            <input type="checkbox" name="kip" id="kip" /><label for="kip">Kip</label><br />
+            <input type="checkbox" name="ajuin" id="ajuin" /><label for="ajuin">Ajuin</label>
+            <input type="checkbox" name="champignons" id="champignons" /><label for="champignons">Champignons</label>
+            <input type="checkbox" name="ananas" id="ananas" disabled /><label for="ananas">Ananas</label><br /><br />
+            <label class="vet">Opmerkingen:</label><br />
+            <textarea cols="50" rows="10" name="opmerking"> </textarea><br /><br />
+            <label for="betaalwijze" class="vet">Betaalwijze:</label><br />
+            <select name="selectie" id="betaalwijze" size="1" required>
+                <option value=""> </option>
+                <option value="Cash">Cash</option>
+                <option value="Bancontact">Bancontact</option>
+            </select><br /><br />
+            <input type="submit" name="submit" class="submit" value="Ziet er lekker uit, bestellen maar!" />
+        </form>
+    </main>
+</body>
+</html>

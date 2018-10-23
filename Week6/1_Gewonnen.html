@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+    <link rel="stylesheet" type="text/css" href="1_Gewonnen.css" />
+</head>
+<body>
+    <main>
+        <h1>Je hebt gewonnen!</h1>
+        <h3>Vul je gegevens in en we sturen de prijs naar jou!</h3>
+        <form name="gegevens" action="#">
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" name="achternaam" id="achternaam" required/>
+            <label for="voornaam">Voornaam:</label>
+            <input type="text" name="voornaam" id="voornaam" required/><br /><br />
+            <label for="straat">Straat:</label>
+            <input type="text" name="straat" id="straat" required/>
+            <label for="nummer">Nummer:</label>
+            <input type="text" name="nummer" id="nummer" required/>
+            <label for="bus">Bus:</label>
+            <input type="text" name="bus" id="bus" /><br /><br />
+            <label for="postcode">Postcode:</label>
+            <input type="text" maxlength="4" name="postcode" id="postcode" required/>
+            <label for="gemeente">Gemeente:</label>
+            <input type="text" name="gemeente" id="gemeente" required/><br /><br />
+            <input type="submit" name="verzenden" value="Verzenden" id="button"/>
+            <input type="reset" name="wissen" value="Wissen" id="button"/>
+        </form>
+    </main>
+</body>
+</html>
