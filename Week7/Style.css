@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #ededed;
+}
+
+div {
+    background-color: #ededed;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgba(87, 222, 135, 0.3);
+    height: 55px;
+    width: 1050px;
+    position: fixed;
+}
+
+.logo {
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 2px;
+    margin-right: 10px;
+}
+
+nav a {
+    vertical-align: top;
+    position: relative;
+    top: 17px;
+    text-decoration: none;
+    color: #093156;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+main {
+    padding-top: 60px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.titel {
+    position: absolute;
+    top: 225px;
+    left: 975px;
+    color: white;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+hr {
+    border-top: 1px solid black;
+    margin-top: 0;
+}
+
+article {
+    float: left;
+    width: 255px;
+    margin: 0;
+}
+
+article.linkerkant {
+    padding-right: 5px;
+}
+
+article.midden {
+    padding: 0 5px;
+}
+
+article.rechterkant {
+    padding-left: 5px;
+}
+
+article p {
+    font-size: 10px;
+    width: auto;
+}
+
+article img {
+    width: 100%;
+}
+
+.naam {
+    float: right;
+}
+
+article section {
+    height: 100px;
+}
+
+h4 {
+    font-weight: normal;
+    margin: 0;
+}
+
+article section p {
+    font-size: small;
+    margin-top: 3px;
+}
