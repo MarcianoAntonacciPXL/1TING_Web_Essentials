@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link type="text/css" rel="stylesheet" href="Style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-
+    <nav>
+        <img class="logo" src="assets/logo.png" />
+        <a href="Home.html">NIEUWS</a>
+        <a href="Producten.html">PRODUCTEN</a>
+        <a href="Contact.html">CONTACT</a>
+    </nav>
+    <div class="pagina">
+        <img class="banner" src="assets/banner.jpg" />
+        <form action="mailto:sam.agten@pxl.be" method="post" enctype="text/plain">
+            <img class="icoon1" src="assets/contact.png" />
+            <h2 style="margin-left: 5px;">Contact</h2>
+            <hr />
+            <input class="tekstnaam" type="text" name="Naam" title="Naam" value="Naam" required>
+            <input class="tekstemail" type="text" name="email" title="Email" value="Email" required/>
+            <input class="tekstonderwerp" type="text" name="onderwerp" title="Onderwerp" value="Onderwerp" required/>
+            <textarea class="boodschap" cols="50" rows="10" name="boodschap" title="Boodschap">Boodschap</textarea>
+            <input type="submit" class="submit" value="Stuur boodschap" />
+        </form>
+    </div>
+    <footer>
+        <p>Copyright PXL 2018</p>
+    </footer>
 </body>
 </html>
