@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickets</title>
+    <link type="text/css" rel="stylesheet" href="1_Historie.css" />
+</head>
+<body>
+<main>
+    <aside>
+        <h4>Tickets</h4>
+        <form name="tickets">
+            <fieldset>
+                <legend>Datum en tijd</legend>
+                <label for="dag">Datum - </label>
+                <select name="dag" id="dag" size="1" required>
+                    <option value=""> </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select><br />
+                <label for="maand">Datum - </label>
+                <select name="maand" id="maand" size="1" required>
+                    <option value=""> </option>
+                    <option value="januari">Januari</option>
+                    <option value="februari">Februari</option>
+                    <option value="maart">Maart</option>
+                    <option value="april">April</option>
+                    <option value="mei">Mei</option>
+                    <option value="juni">Juni</option>
+                    <option value="juli">Juli</option>
+                    <option value="augustus">Augustus</option>
+                    <option value="september">September</option>
+                    <option value="oktober">Oktober</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <input type="radio" id="tijd" name="tijd" value="14:00" />
+                <label for="tijd">14:00</label><br />
+                <input type="radio" id="tijd" name="tijd" value="19:00" />
+                <label for="tijd">19:00</label><br />
+                <input type="radio" id="tijd" name="tijd" value="21:00" />
+                <label for="tijd">21:00</label>
+            </fieldset>
+            <fieldset>
+                <legend>Persoonlijke gegevens</legend>
+                <label for="naam">Naam</label><br />
+                <input type="text" id="naam" name="naam" required />
+            </fieldset>
+            <fieldset>
+                <legend>Verwerken</legend>
+                <input type="reset" value="wissen" />
+                <input type="submit" value="zenden" />
+            </fieldset>
+        </form>
+    </aside>
+    <article>
+        <img src="figuren/10000bc.jpg" alt="banner" />
+        <p>BESTEL UW TICKETS NU</p>
+    </article>
+    <nav>
+        <a href="1_Historie.html"><div class="link">Home</div></a>
+        <a href="2_Tickets.html"><div class="link">Tickets</div></a>
+        <a href="#"><div class="link">Downloads</div></a>
+        <a href="#"><div class="link">Cast</div></a>
+        <a href="#"><div class="link">Informatie</div></a>
+    </nav>
+</main>
+</body>
+</html>
